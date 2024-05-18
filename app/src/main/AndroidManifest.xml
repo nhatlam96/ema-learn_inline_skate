@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InlineSkateAcademy"
+        tools:targetApi="31">
+        <activity
+            android:name=".NoviceLesson1Activity"
+            android:exported="false"
+            android:label="@string/novice_lesson_1_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".NoviceLesson2Activity"
+            android:exported="false"
+            android:label="@string/novice_lesson_2_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".NoviceLesson3Activity"
+            android:exported="false"
+            android:label="@string/novice_lesson_3_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".NoviceLesson4Activity"
+            android:exported="false"
+            android:label="@string/novice_lesson_4_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".NoviceLesson5Activity"
+            android:exported="false"
+            android:label="@string/novice_lesson_5_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson1Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_1_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson2Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_2_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson3Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_3_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson4Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_4_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".RegularLesson5Activity"
+            android:exported="false"
+            android:label="@string/regular_lesson_5_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".ExpertLesson1Activity"
+            android:exported="false"
+            android:label="@string/expert_lesson_1_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".ExpertLesson2Activity"
+            android:exported="false"
+            android:label="@string/expert_lesson_2_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".ExpertLesson3Activity"
+            android:exported="false"
+            android:label="@string/expert_lesson_3_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".ExpertLesson4Activity"
+            android:exported="false"
+            android:label="@string/expert_lesson_4_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".ExpertLesson5Activity"
+            android:exported="false"
+            android:label="@string/expert_lesson_5_title"
+            android:theme="@style/Theme.InlineSkateAcademy.NoActionBar" />
+        <activity
+            android:name=".TheoryCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpertCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegularCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoviceCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MySplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
